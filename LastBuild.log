@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.5.29.0" projectFile="C:\Users\lived\Desktop\Ubik Code\Ubik\TheUbikDoc.shfbproj" started="20/01/2021 00:11:08">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    C:\Users\lived\Desktop\Ubik Code\Ubik
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 2.0&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2018.5.29.0
+Copyright &#169; 2006-2018, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\lived\Desktop\Ubik Code\Ubik\bin\Release\UbikCode.dll
+    Found assembly &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\bin\Release\UbikCode.dll&#39;
+Source: C:\Users\lived\Desktop\Ubik Code\Ubik\bin\Release\UbikCode.xml
+
+Copying XML comments files
+    C:\Users\lived\Desktop\Ubik Code\Ubik\bin\Release\UbikCode.xml -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\UbikCode.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Anglais (&#201;tats-Unis))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0158
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
+La g‚n‚ration a d‚marr‚ 20/01/2021 00:11:09.
+Projet &quot;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\GenerateRefInfo.proj&quot; sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2018.5.29.0)
+  Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 0 dependency assemblies.
+  Wrote information on 5 namespaces, 36 types, and 572 members
+  Copie du fichier de &quot;reflection.org&quot; vers &quot;reflection.all&quot;.
+  XslTransform (v2018.5.29.0)
+  Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+G‚n‚ration du projet &quot;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\GenerateRefInfo.proj&quot; termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+
+Temps ‚coul‚ 00:00:00.69
+    Last step completed in 00:00:00,8657
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
+La g‚n‚ration a d‚marr‚ 20/01/2021 00:11:10.
+Projet &quot;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\TransformManifest.proj&quot; sur le noud 1 (cibles par d‚faut).
+TransformManifest:
+  XslTransform (v2018.5.29.0)
+  Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copie du fichier de &quot;reflection.xml&quot; vers &quot;reflection.ungrouped&quot;.
+  AddNamespaceGroups (v2018.5.29.0)
+  Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved
+  Added 1 namespace group entries
+  Copie du fichier de &quot;reflection.xml&quot; vers &quot;reflection.nofilenames&quot;.
+  XslTransform (v2018.5.29.0)
+  Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2018.5.29.0)
+  Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+G‚n‚ration du projet &quot;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\TransformManifest.proj&quot; termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+
+Temps ‚coul‚ 00:00:03.91
+    Last step completed in 00:00:04,1152
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0340
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
+La g‚n‚ration a d‚marr‚ 20/01/2021 00:11:14.
+Projet &quot;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\GenerateIntermediateTOC.proj&quot; sur le noud 1 (cibles par d‚faut).
+GenerateIntermediateTOC:
+  XslTransform (v2018.5.29.0)
+  Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+G‚n‚ration du projet &quot;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\GenerateIntermediateTOC.proj&quot; termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+
+Temps ‚coul‚ 00:00:00.14
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,3191
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,1173
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+    Added configuration for &#39;API Token Resolution&#39; before &#39;Show Missing Documentation Component&#39; (instance 1)
+    Replaced configuration for &#39;Syntax Component&#39; (instance 1) with configuration for &#39;Syntax Component&#39;
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0140
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
+La g‚n‚ration a d‚marr‚ 20/01/2021 00:11:14.
+Projet &quot;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\BuildTopics.proj&quot; sur le noud 1 (cibles par d‚faut).
+BuildTopics:
+  BuildAssembler (v2018.5.29.0)
+  Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
+  SwitchComponent: Loading components for API case
+  CopyFromFileComponent: Loading data file &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Transforms\skeleton.xml&#39;.
+  CopyFromFileComponent: Loaded 1 copy commands
+  CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+  CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39; in &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working&#39;
+  CopyFromIndexComponent: Indexed 11691 elements
+  ForEachComponent: Loading subcomponents.
+  ForEachComponent: Loaded 1 subcomponents.
+  ForEachComponent: Loading subcomponents.
+  ForEachComponent: Loaded 1 subcomponents.
+  ForEachComponent: Loading subcomponents.
+  ForEachComponent: Loaded 1 subcomponents.
+  ForEachComponent: Loading subcomponents.
+  ForEachComponent: Loaded 1 subcomponents.
+  ForEachComponent: Loading subcomponents.
+  ForEachComponent: Loaded 1 subcomponents.
+  ForEachComponent: Loading subcomponents.
+  ForEachComponent: Loaded 1 subcomponents.
+  ForEachComponent: Loading subcomponents.
+  ForEachComponent: Loaded 1 subcomponents.
+  SyntaxComponent: Loaded 1 syntax generators.
+  CopyFromIndexComponent: Searching for files that match &#39;UbikCode.xml&#39; in &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working&#39;
+  CopyFromIndexComponent: Indexed 318 elements
+  ForEachComponent: Loading subcomponents.
+  ForEachComponent: Loaded 2 subcomponents.
+  SharedContentComponent: Loaded 0 shared content items.
+  ShowMissingComponent: [Sandcastle Help File Builder and Tools, version 2018.5.29.0]
+      Show Missing Documentation Component. Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved
+      https://GitHub.com/EWSoftware/SHFB
+  CodeBlockComponent: [Sandcastle Help File Builder and Tools, version 2018.5.29.0]
+      Code Block Component.  Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
+      Portions copyright (c) 2003-2015, Jonathan de Halleux, All rights reserved.
+      https://GitHub.com/EWSoftware/SHFB
+  MultiFormatOutputComponent: [Sandcastle Help File Builder and Tools, version 2018.5.29.0]
+      Multi-Format Output Component. Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved
+      https://GitHub.com/EWSoftware/SHFB
+  MultiFormatOutputComponent: Loading components for Website format
+  SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Content\shared_content.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Content\shared_content.xml&#39;.
+  SharedContentComponent: Found 1 files in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Content\shared_content.xml.
+  SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Content\reference_content.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Content\reference_content.xml&#39;.
+  SharedContentComponent: Found 1 files in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Content\reference_content.xml.
+  SharedContentComponent: Searching for files that match &#39;SHFBContent.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\SHFBContent.xml&#39;.
+  SharedContentComponent: Overriding shared content item &#39;copyright_info&#39; with value in file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\SHFBContent.xml&#39;.
+  SharedContentComponent: Overriding shared content item &#39;copyright_link&#39; with value in file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\SHFBContent.xml&#39;.
+  SharedContentComponent: Overriding shared content item &#39;copyright_text&#39; with value in file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\SHFBContent.xml&#39;.
+  SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\SHFBContent.xml&#39;.
+  SharedContentComponent: Overriding shared content item &#39;topicTitle_root&#39; with value in file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\SHFBContent.xml&#39;.
+  SharedContentComponent: Overriding shared content item &#39;productTitle&#39; with value in file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\SHFBContent.xml&#39;.
+  SharedContentComponent: Overriding shared content item &#39;runningHeaderText&#39; with value in file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\SHFBContent.xml&#39;.
+  SharedContentComponent: Overriding shared content item &#39;locale&#39; with value in file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\SHFBContent.xml&#39;.
+  SharedContentComponent: Overriding shared content item &#39;brandingLocaleCss&#39; with value in file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\SHFBContent.xml&#39;.
+  SharedContentComponent: Found 1 files in SHFBContent.xml.
+  SharedContentComponent: Searching for files that match &#39;WebsiteContent.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\WebsiteContent.xml&#39;.
+  SharedContentComponent: Overriding shared content item &#39;websiteAdContent&#39; with value in file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\WebsiteContent.xml&#39;.
+  SharedContentComponent: Found 1 files in WebsiteContent.xml.
+  SharedContentComponent: Searching for files that match &#39;AspNet.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\AspNet.xml&#39;.
+  SharedContentComponent: Found 1 files in AspNet.xml.
+  SharedContentComponent: Searching for files that match &#39;XSharp.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\XSharp.xml&#39;.
+  SharedContentComponent: Found 1 files in XSharp.xml.
+  SharedContentComponent: Searching for files that match &#39;ManagedCPlusPlus.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\ManagedCPlusPlus.xml&#39;.
+  SharedContentComponent: Found 1 files in ManagedCPlusPlus.xml.
+  SharedContentComponent: Searching for files that match &#39;CSharp.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\CSharp.xml&#39;.
+  SharedContentComponent: Found 1 files in CSharp.xml.
+  SharedContentComponent: Searching for files that match &#39;FSharp.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\FSharp.xml&#39;.
+  SharedContentComponent: Found 1 files in FSharp.xml.
+  SharedContentComponent: Searching for files that match &#39;JavaScript.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\JavaScript.xml&#39;.
+  SharedContentComponent: Found 1 files in JavaScript.xml.
+  SharedContentComponent: Searching for files that match &#39;JScript.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\JScript.xml&#39;.
+  SharedContentComponent: Found 1 files in JScript.xml.
+  SharedContentComponent: Searching for files that match &#39;JSharp.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\JSharp.xml&#39;.
+  SharedContentComponent: Found 1 files in JSharp.xml.
+  SharedContentComponent: Searching for files that match &#39;VisualBasic.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\VisualBasic.xml&#39;.
+  SharedContentComponent: Found 1 files in VisualBasic.xml.
+  SharedContentComponent: Searching for files that match &#39;VisualBasicUsage.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\VisualBasicUsage.xml&#39;.
+  SharedContentComponent: Found 1 files in VisualBasicUsage.xml.
+  SharedContentComponent: Searching for files that match &#39;XAML.xml&#39;.
+  SharedContentComponent: Loading shared content file &#39;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\XAML.xml&#39;.
+  SharedContentComponent: Found 1 files in XAML.xml.
+  SharedContentComponent: Loaded 669 shared content items.
+  ResolveConceptualLinksComponent: Collected 1 targets directories.
+  ResolveReferenceLinksComponent: Loading Msdn reference link type targets
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.Generic.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Reflection.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.Serialization.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Security.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Runtime.InteropServices.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Text.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.xml
+  ResolveReferenceLinksComponent: Indexing targets in C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Collections.ObjectModel.xml
+  ResolveReferenceLinksComponent: Loading Local reference link type targets
+  ResolveReferenceLinksComponent: Indexing targets in C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\reflection.xml
+  ResolveReferenceLinksComponent: 11691 total reference link targets
+  ResolveReferenceLinksComponent: Creating MSDN URL resolver
+  ResolveReferenceLinksComponent: The MSDN content ID cache &#39;C:\Users\lived\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MsdnContentId.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
+  BuildAssemblerCore: Building topic N:
+  BuildAssemblerCore: Building topic T:&lt;Module&gt;
+  BuildAssemblerCore: Building topic N:Ubik
+  BuildAssemblerCore: Building topic T:Ubik.ScriptManager
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Ubik.ScriptManager] MSDN web service failed.  No further look ups will be performed for this build. [C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : Reason: Impossible de se connecter au serveur distant [C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : Une tentative de connexion a ‚chou‚ car le parti connect‚ n&#39;a pas r‚pondu convenablement au-del… d&#39;une certaine dur‚e ou une connexion ‚tablie a ‚chou‚ car l&#39;h“te de connexion n&#39;a pas r‚pondu 65.52.103.105:80 [C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\BuildTopics.proj]
+  BuildAssemblerCore: Building topic Methods.T:Ubik.ScriptManager
+  BuildAssemblerCore: Building topic Properties.T:Ubik.ScriptManager
+  BuildAssemblerCore: Building topic Fields.T:Ubik.ScriptManager
+  BuildAssemblerCore: Building topic Overload:Ubik.ScriptManager.RegisterHostFunction
+  BuildAssemblerCore: Building topic M:Ubik.ScriptManager.#ctor
+  BuildAssemblerCore: Building topic P:Ubik.ScriptManager.ActiveLocks
+  BuildAssemblerCore: Building topic M:Ubik.ScriptManager.ClearActiveLocks
+  BuildAssemblerCore: Building topic P:Ubik.ScriptManager.DebugMode
+  BuildAssemblerCore: Building topic P:Ubik.ScriptManager.GlobalDictionary
+  BuildAssemblerCore: Building topic P:Ubik.ScriptManager.HostFunctions
+  BuildAssemblerCore: Building topic M:Ubik.ScriptManager.IsHostFunctionRegistered(System.String)
+  BuildAssemblerCore: Building topic P:Ubik.ScriptManager.Loader
+  BuildAssemblerCore: Building topic P:Ubik.ScriptManager.Locks
+  BuildAssemblerCore: Building topic F:Ubik.ScriptManager.m_bDebugMode
+  BuildAssemblerCore: Building topic F:Ubik.ScriptManager.m_bOptimiseCode
+  BuildAssemblerCore: Building topic F:Ubik.ScriptManager.m_dictHostFunctionPrototypes
+  BuildAssemblerCore: Building topic F:Ubik.ScriptManager.m_dictLocks
+  BuildAssemblerCore: Building topic F:Ubik.ScriptManager.m_scriptLoader
+  BuildAssemblerCore: Building topic F:Ubik.ScriptManager.m_variableDictionaryGlobal
+  BuildAssemblerCore: Building topic P:Ubik.ScriptManager.OptimiseCode
+  BuildAssemblerCore: Building topic M:Ubik.ScriptManager.RegisterHostFunction(Ubik.Compiler.HostFunctionPrototype)
+  BuildAssemblerCore: Building topic M:Ubik.ScriptManager.RegisterHostFunction(Ubik.Compiler.HostFunctionPrototype,Ubik.Runtime.HostFunctionHandler)
+  BuildAssemblerCore: Building topic M:Ubik.ScriptManager.RegisterHostModule(Ubik.Runtime.HostModule)
+  BuildAssemblerCore: Building topic T:Ubik.UbikException
+  BuildAssemblerCore: Building topic Methods.T:Ubik.UbikException
+  BuildAssemblerCore: Building topic Properties.T:Ubik.UbikException
+  BuildAssemblerCore: Building topic Fields.T:Ubik.UbikException
+  BuildAssemblerCore: Building topic Overload:Ubik.UbikException.#ctor
+  BuildAssemblerCore: Building topic M:Ubik.UbikException.#ctor
+  BuildAssemblerCore: Building topic M:Ubik.UbikException.#ctor(System.String)
+  BuildAssemblerCore: Building topic M:Ubik.UbikException.#ctor(System.String,System.Exception)
+  BuildAssemblerCore: Building topic F:Ubik.UbikException.m_exceptionInner
+  BuildAssemblerCore: Building topic F:Ubik.UbikException.m_strMessage
+  BuildAssemblerCore: Building topic P:Ubik.UbikException.Message
+  BuildAssemblerCore: Building topic P:Ubik.UbikException.MessageTrace
+  BuildAssemblerCore: Building topic M:Ubik.UbikException.ToString
+  BuildAssemblerCore: Building topic N:Ubik.Collections
+  BuildAssemblerCore: Building topic T:Ubik.Collections.ReadOnlyDictionary`2
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Collections.ReadOnlyDictionary`2
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Collections.ReadOnlyDictionary`2
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Collections.ReadOnlyDictionary`2
+  BuildAssemblerCore: Building topic Overload:Ubik.Collections.ReadOnlyDictionary`2.Add
+  BuildAssemblerCore: Building topic Overload:Ubik.Collections.ReadOnlyDictionary`2.Contains
+  BuildAssemblerCore: Building topic Overload:Ubik.Collections.ReadOnlyDictionary`2.CopyTo
+  BuildAssemblerCore: Building topic Overload:Ubik.Collections.ReadOnlyDictionary`2.Item
+  BuildAssemblerCore: Building topic Overload:Ubik.Collections.ReadOnlyDictionary`2.Remove
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.Add(System.Object,System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.Add(`0,`1)
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.AsReadOnly(System.Collections.Generic.IDictionary{`0,`1})
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.Clear
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.Contains(System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.ContainsKey(`0)
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.CopyTo(System.Array,System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyDictionary`2.Count
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.GetEnumerator
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyDictionary`2.IsFixedSize
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyDictionary`2.IsReadOnly
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyDictionary`2.IsSynchronized
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyDictionary`2.Item(System.Object)
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyDictionary`2.Item(`0)
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyDictionary`2.Keys
+  BuildAssemblerCore: Building topic F:Ubik.Collections.ReadOnlyDictionary`2.m_dictionary
+  BuildAssemblerCore: Building topic F:Ubik.Collections.ReadOnlyDictionary`2.m_dictionaryTyped
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.OnDeserialization(System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.Remove(System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.Remove(`0)
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyDictionary`2.SyncRoot
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyDictionary`2.TryGetValue(`0,`1@)
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyDictionary`2.Values
+  BuildAssemblerCore: Building topic T:Ubik.Collections.ReadOnlyICollection`1
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Collections.ReadOnlyICollection`1
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Collections.ReadOnlyICollection`1
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Collections.ReadOnlyICollection`1
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyICollection`1.#ctor(System.Collections.Generic.ICollection{`0})
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyICollection`1.Add(`0)
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyICollection`1.AsReadOnly(System.Collections.Generic.ICollection{`0})
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyICollection`1.Clear
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyICollection`1.Contains(`0)
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyICollection`1.CopyTo(`0[],System.Int32)
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyICollection`1.Count
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyICollection`1.GetEnumerator
+  BuildAssemblerCore: Building topic P:Ubik.Collections.ReadOnlyICollection`1.IsReadOnly
+  BuildAssemblerCore: Building topic F:Ubik.Collections.ReadOnlyICollection`1.m_collection
+  BuildAssemblerCore: Building topic M:Ubik.Collections.ReadOnlyICollection`1.Remove(`0)
+  BuildAssemblerCore: Building topic N:Ubik.Compiler
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ExecutionOptimiser
+  ShowMissingComponent: [M:Ubik.Compiler.ExecutionOptimiser.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.ExecutionOptimiser
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Compiler.ExecutionOptimiser
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.ExecutionOptimiser
+  BuildAssemblerCore: Building topic Overload:Ubik.Compiler.ExecutionOptimiser.IsTemporaryVariable
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.#ctor(Ubik.Runtime.ScriptExecutable)
+  ShowMissingComponent: [M:Ubik.Compiler.ExecutionOptimiser.#ctor(Ubik.Runtime.ScriptExecutable)] Auto-documenting constructor
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.EliminateDeadCode
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.EliminateSelfAssignments(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.EliminateSequentialJumps(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.EliminateUnusedTempVariables
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.InsertOptimiserInfo(System.Int32,System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.IsBinaryOperator(Ubik.Runtime.Opcode)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.IsTemporaryVariable(System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.IsTemporaryVariable(Ubik.Runtime.Operand)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.IsTemporaryVariableIndex(Ubik.Runtime.Operand)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.IsUnaryOperator(Ubik.Runtime.Opcode)
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ExecutionOptimiser.m_bOptimisationComplete
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ExecutionOptimiser.m_bOptimiserInfo
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ExecutionOptimiser.m_scriptExecutable
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.Optimise
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseArrayIndices(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseBinaryExpressionAssignment(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseBinaryExpressionEvaluation(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseConditionalJumps(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseConstantConditionalJumps(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseIncrementsAndDecrements(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseInstructionPairs(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseInstructionTriples(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseLiteralAssignment(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimisePopOperation(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimisePushOperation(System.Int32)
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.ExecutionOptimiser.OptimiserInfo
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseSingleInstructions(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.OptimiseUnaryExpressionAssignment(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.ThreeInstructionsAvailable(System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.TraverseActiveInstructions(System.Collections.Generic.Dictionary{Ubik.Runtime.ScriptInstruction,System.Boolean},System.Int32)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ExecutionOptimiser.TwoInstructionsAvailable(System.Int32)
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.HostFunctionPrototype
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.HostFunctionPrototype
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Compiler.HostFunctionPrototype
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.HostFunctionPrototype
+  BuildAssemblerCore: Building topic Overload:Ubik.Compiler.HostFunctionPrototype.#ctor
+  BuildAssemblerCore: Building topic Overload:Ubik.Compiler.HostFunctionPrototype.ToString
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.#ctor(System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.#ctor(System.Type,System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.#ctor(System.Type,System.String,System.Collections.Generic.List{System.Type})
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.#ctor(System.Type,System.String,System.Type)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.#ctor(System.Type,System.String,System.Type,System.Type)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.#ctor(System.Type,System.String,System.Type,System.Type,System.Type)
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.HostFunctionPrototype.Handler
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.HostFunctionPrototype.m_hostFunctionHandler
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.HostFunctionPrototype.m_listParameterTypes
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.HostFunctionPrototype.m_strName
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.HostFunctionPrototype.m_typeResult
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.HostFunctionPrototype.Name
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.HostFunctionPrototype.ParameterTypes
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.HostFunctionPrototype.Result
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.ToString
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.ToString(System.Type)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.ValidateType(System.Type)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.VerifyParameters(System.Collections.Generic.List{System.Object})
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.HostFunctionPrototype.VerifyResult(System.Object)
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.LexerException
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.LexerException
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Compiler.LexerException
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.LexerException
+  BuildAssemblerCore: Building topic Overload:Ubik.Compiler.LexerException.#ctor
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.LexerException.#ctor
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.LexerException.#ctor(System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.LexerException.#ctor(System.String,System.Exception)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.LexerException.#ctor(System.String,System.Int32,System.Int32,System.String)
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ParserException
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.ParserException
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Compiler.ParserException
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.ParserException
+  BuildAssemblerCore: Building topic Overload:Ubik.Compiler.ParserException.#ctor
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ParserException.#ctor
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ParserException.#ctor(System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ParserException.#ctor(System.String,System.Exception)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ParserException.#ctor(System.String,Ubik.Compiler.Token)
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ParserException.m_token
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.Script
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.Script
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Compiler.Script
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.Script
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.Script.#ctor(Ubik.ScriptManager,System.String)
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Script.Executable
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Script.Functions
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.Script.HasMainFunction
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.Script.LoadScript(System.String)
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.Script.m_listSourceLines
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.Script.m_scriptExecutable
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.Script.m_scriptManager
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.Script.m_strName
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Script.MainFunction
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Script.Manager
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Script.Name
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Script.ScriptDictionary
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Script.Source
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Script.SourceLines
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ScriptFunction
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.ScriptFunction
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Compiler.ScriptFunction
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.ScriptFunction
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptFunction.#ctor(Ubik.Runtime.ScriptExecutable,System.String,System.Collections.Generic.List{System.String},Ubik.Runtime.ScriptInstruction)
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.ScriptFunction.EntryPoint
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.ScriptFunction.Executable
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptFunction.m_listParameters
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptFunction.m_scriptExecutable
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptFunction.m_scriptInstructionEntryPoint
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptFunction.m_strName
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.ScriptFunction.Name
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.ScriptFunction.ParameterCount
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.ScriptFunction.Parameters
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptFunction.ToString
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ScriptLexer
+  ShowMissingComponent: [M:Ubik.Compiler.ScriptLexer.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.ScriptLexer
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Compiler.ScriptLexer
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.ScriptLexer
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptLexer.#ctor(System.Collections.Generic.List{System.String})
+  ShowMissingComponent: [M:Ubik.Compiler.ScriptLexer.#ctor(System.Collections.Generic.List{System.String})] Auto-documenting constructor
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.ScriptLexer.EndOfSource
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptLexer.GetTokens
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptLexer.m_iSourceChar
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptLexer.m_iSourceLine
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptLexer.m_lexState
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptLexer.m_listSourceLines
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptLexer.ReadChar
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptLexer.ThrowInvalidCharacterException(System.Char)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptLexer.UndoChar
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ScriptLexer.LexState
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ScriptLoader
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.ScriptLoader
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptLoader.LoadScript(System.String)
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ScriptLoaderDefault
+  ShowMissingComponent: [M:Ubik.Compiler.ScriptLoaderDefault.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.ScriptLoaderDefault
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptLoaderDefault.#ctor
+  ShowMissingComponent: [M:Ubik.Compiler.ScriptLoaderDefault.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptLoaderDefault.LoadScript(System.String)
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ScriptParser
+  ShowMissingComponent: [M:Ubik.Compiler.ScriptParser.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.ScriptParser
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Compiler.ScriptParser
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.ScriptParser
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.#ctor(Ubik.Compiler.Script,System.Collections.Generic.List{Ubik.Compiler.Token})
+  ShowMissingComponent: [M:Ubik.Compiler.ScriptParser.#ctor(Ubik.Compiler.Script,System.Collections.Generic.List{Ubik.Compiler.Token})] Auto-documenting constructor
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.AllocateTemporaryVariable
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.AllocateTemporaryVariableLevel
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.ScriptParser.DebugMode
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.DeclareLocalVar(System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.FreeTemporaryVariableLevel
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.GetAssignmentOpcode(Ubik.Compiler.TokenType)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.GetLiteralType(Ubik.Compiler.TokenType)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.HasMoreTokens
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.InsertDebugInfo(Ubik.Compiler.Token)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.IsArrayLValue
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.IsAssignmentOperator(Ubik.Compiler.TokenType)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.IsMemberLValue
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_bDebugMode
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_dictFunctionVariables
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_dictScriptVariables
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_dictUnresolvedFunctionCalls
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_iFunctionVariableLevel
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_iNextToken
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_listTokens
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_script
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_scriptExecutable
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_stackLoopControl
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.m_typeInferer
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.Parse
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseArithmeticExpression
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseArrayExpression
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseAssignment
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseBreak
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseConditionalStatement
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseConjunction
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseContinue
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseDisjunction
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseExpression
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseFactor
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseForeachStatement
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseForStatement
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseFunctionCall
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseFunctionDeclaration
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseHostFunctionCall
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseIndexedVariable
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseIndexedVariableAssignment
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseLocalVariableDeclaration
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseLockedStatementBlock
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseMemberVariable
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseMemberVariableAssignment
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseNotify
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParsePostDecrement
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParsePostIncrement
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParsePreDecrement
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParsePreIncrement
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParsePrimary
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseProposition
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseRelation
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseReturn
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseScript
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseScriptFunctionCall(System.Boolean)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseScriptOrGlobalVariableDeclaration
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseSimpleVariableAssignment
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseStatement
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseStatementBlock
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseSwitchStatement
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseTerm
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseThreadCall
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseWait
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseWhileStatement
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ParseYield
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.PeekToken
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadComma
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadDeclaredIdentifier
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadIdentifier
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadLeftBrace
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadLeftBracket
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadLeftParenthesis
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadPeriod
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadRightBrace
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadRightBracket
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadRightParenthesis
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadSemicolon
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ReadToken
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.ResolveForwardFunctionDeclarations
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.UndoToken
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.VerifyInferredType(Ubik.Compiler.Token,System.Type,System.Type)
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ScriptParser.FunctionDescriptor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.ScriptParser.FunctionDescriptor
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.ScriptParser.FunctionDescriptor
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.FunctionDescriptor.m_scriptInstruction
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.FunctionDescriptor.m_strFunctionName
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.FunctionDescriptor.m_uiParameterCount
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ScriptParser.LoopControl
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.ScriptParser.LoopControl
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.ScriptParser.LoopControl
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.LoopControl.m_scriptInstructionBreak
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.LoopControl.m_scriptInstructionContinue
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.ScriptParser.Variable
+  ShowMissingComponent: [M:Ubik.Compiler.ScriptParser.Variable.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.ScriptParser.Variable
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.ScriptParser.Variable
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.ScriptParser.Variable.#ctor(System.String,Ubik.Runtime.VariableScope,System.Type)
+  ShowMissingComponent: [M:Ubik.Compiler.ScriptParser.Variable.#ctor(System.String,Ubik.Runtime.VariableScope,System.Type)] Auto-documenting constructor
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.Variable.m_strName
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.Variable.m_typeInferred
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.ScriptParser.Variable.m_variablescope
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.Token
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.Token
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Compiler.Token
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.Token
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.Token.#ctor(Ubik.Compiler.TokenType,System.Object,System.Int32,System.Int32,System.String)
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Token.Lexeme
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.Token.m_iSourceChar
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.Token.m_iSourceLine
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.Token.m_objectLexeme
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.Token.m_strSourceLine
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.Token.m_tokenType
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Token.SourceCharacter
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Token.SourceLine
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Token.SourceText
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.Token.ToString
+  BuildAssemblerCore: Building topic P:Ubik.Compiler.Token.Type
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.TokenType
+  BuildAssemblerCore: Building topic T:Ubik.Compiler.TypeInferer
+  ShowMissingComponent: [M:Ubik.Compiler.TypeInferer.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Compiler.TypeInferer
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Compiler.TypeInferer
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.TypeInferer.#ctor
+  ShowMissingComponent: [M:Ubik.Compiler.TypeInferer.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.TypeInferer.GetInferredType(Ubik.Compiler.Token,System.Type,System.Type)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.TypeInferer.GetTypeDescription(System.Type)
+  BuildAssemblerCore: Building topic M:Ubik.Compiler.TypeInferer.MakeKey(System.Type,System.Type)
+  BuildAssemblerCore: Building topic F:Ubik.Compiler.TypeInferer.s_dictInferenceMap
+  BuildAssemblerCore: Building topic N:Ubik.Runtime
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.AssociativeArray
+  ShowMissingComponent: [M:Ubik.Runtime.AssociativeArray.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.AssociativeArray
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Runtime.AssociativeArray
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Runtime.AssociativeArray
+  BuildAssemblerCore: Building topic Overload:Ubik.Runtime.AssociativeArray.Add
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.AssociativeArray.#ctor
+  ShowMissingComponent: [M:Ubik.Runtime.AssociativeArray.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.AssociativeArray.Add(System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.AssociativeArray.AddArray(Ubik.Runtime.AssociativeArray)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.AssociativeArray.AddValue(System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.AssociativeArray.EqualValues(System.Object,System.Object)
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.AssociativeArray.Item(System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.AssociativeArray.OutputValue(System.Text.StringBuilder,System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.AssociativeArray.Subtract(System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.AssociativeArray.SubtractArray(Ubik.Runtime.AssociativeArray)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.AssociativeArray.SubtractValue(System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.AssociativeArray.ToString
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.ExecutionException
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.ExecutionException
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Runtime.ExecutionException
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Runtime.ExecutionException
+  BuildAssemblerCore: Building topic Overload:Ubik.Runtime.ExecutionException.#ctor
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ExecutionException.#ctor
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ExecutionException.#ctor(System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ExecutionException.#ctor(System.String,System.Exception)
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.HostFunctionHandler
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.HostFunctionHandler
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.HostFunctionHandler.OnHostFunctionCall(System.String,System.Collections.Generic.List{System.Object})
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.HostModule
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.HostModule
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Runtime.HostModule
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.HostModule.HostFunctionPrototypes
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.NullReference
+  ShowMissingComponent: [M:Ubik.Runtime.NullReference.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.NullReference
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Runtime.NullReference
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Runtime.NullReference
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.NullReference.#ctor
+  ShowMissingComponent: [M:Ubik.Runtime.NullReference.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.NullReference.Instance
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.NullReference.s_nullReference
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.NullReference.ToString
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.Opcode
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.Operand
+  ShowMissingComponent: [M:Ubik.Runtime.Operand.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.Operand
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Runtime.Operand
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Runtime.Operand
+  BuildAssemblerCore: Building topic Overload:Ubik.Runtime.Operand.ToString
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.Operand.#ctor(Ubik.Runtime.OperandType,System.Object,System.Object)
+  ShowMissingComponent: [M:Ubik.Runtime.Operand.#ctor(Ubik.Runtime.OperandType,System.Object,System.Object)] Auto-documenting constructor
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.Operand.CreateHostFunctionRef(Ubik.Compiler.HostFunctionPrototype)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.Operand.CreateInstructionRef(Ubik.Runtime.ScriptInstruction)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.Operand.CreateLiteral(System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.Operand.CreateLiteralIndexedVariable(System.String,System.Object)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.Operand.CreateScriptFunctionRef(Ubik.Compiler.ScriptFunction)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.Operand.CreateVariable(System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.Operand.CreateVariableIndexedVariable(System.String,System.String)
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.Operand.HostFunctionRef
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.Operand.IndexIdentifier
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.Operand.IndexLiteral
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.Operand.InstructionRef
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.Operand.m_objectIndex
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.Operand.m_objectValue
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.Operand.m_operandType
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.Operand.ScriptFunctionRef
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.Operand.ToString
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.Operand.ToString(System.Object)
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.Operand.Type
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.Operand.Value
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.OperandType
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.ScriptContext
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.ScriptContext
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Runtime.ScriptContext
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Runtime.ScriptContext
+  BuildAssemblerCore: Building topic Overload:Ubik.Runtime.ScriptContext.#ctor
+  BuildAssemblerCore: Building topic Overload:Ubik.Runtime.ScriptContext.Execute
+  BuildAssemblerCore: Building topic Overload:Ubik.Runtime.ScriptContext.ProcessIterator
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.#ctor(Ubik.Compiler.Script)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.#ctor(Ubik.Compiler.Script,System.Collections.Generic.List{System.Object})
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.#ctor(Ubik.Compiler.ScriptFunction)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.#ctor(Ubik.Compiler.ScriptFunction,System.Collections.Generic.List{System.Object})
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.AssignVariable(Ubik.Runtime.Operand,System.Object)
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptContext.ChildThreads
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.Execute
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.Execute(System.TimeSpan)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.Execute(System.UInt32)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ExecuteInstruction
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ExecuteThreads
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptContext.FunctionStack
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptContext.Handler
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptContext.Interrupted
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptContext.InterruptOnHostfunctionCall
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptContext.LocalDictionary
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_bInterruped
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_bInterruptOnHostfunctionCall
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_bTerminated
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_dictLocks
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_listThreads
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_script
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_scriptExecutable
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_scriptFunction
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_scriptHandler
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_scriptInstruction
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_stackFunctionFrames
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_stackParameters
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.m_variableDictionaryLocal
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptContext.NextInstruction
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptContext.ParameterStack
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessADD
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessAND
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessArithmeticInstruction
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessCALL
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessCEQ
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessCG
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessCGE
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessCL
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessCLE
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessCLRA
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessCNE
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessCNL
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessDBG
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessDCG
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessDCL
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessDEC
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessDIV
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessHOST
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessINC
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessINT
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessIterator(System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessIterator(Ubik.Runtime.AssociativeArray)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessJF
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessJMP
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessJT
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessLOCK
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessLogicalInstruction
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessMOD
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessMOV
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessMUL
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessNEG
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessNEXT
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessNOP
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessNOT
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessOR
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessPOP
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessPOW
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessPUSH
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessRelationalInstruction
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessRET
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessSUB
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessTHRD
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ProcessULCK
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.Reset
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.ResolveOperand(Ubik.Runtime.Operand)
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptContext.Script
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptContext.Terminated
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.ScriptContext.FunctionFrame
+  ShowMissingComponent: [M:Ubik.Runtime.ScriptContext.FunctionFrame.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.ScriptContext.FunctionFrame
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Runtime.ScriptContext.FunctionFrame
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptContext.FunctionFrame.#ctor
+  ShowMissingComponent: [M:Ubik.Runtime.ScriptContext.FunctionFrame.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.FunctionFrame.m_iNextInstruction
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.FunctionFrame.m_scriptFunction
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptContext.FunctionFrame.m_variableDictionary
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.ScriptExecutable
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.ScriptExecutable
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Runtime.ScriptExecutable
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Runtime.ScriptExecutable
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptExecutable.#ctor(Ubik.Compiler.Script)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptExecutable.EliminateNullOpcodes
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptExecutable.Functions
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptExecutable.HasMainFunction
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptExecutable.Instructions
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptExecutable.InstructionsInternal
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptExecutable.m_dictScriptFunctions
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptExecutable.m_listScriptInstructions
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptExecutable.m_script
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptExecutable.m_variableDictionaryScript
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptExecutable.MainFunction
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptExecutable.RenumberInstructions
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptExecutable.Script
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptExecutable.ScriptDictionary
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptExecutable.ShiftAddressRef(Ubik.Runtime.Operand)
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.ScriptInstruction
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.ScriptInstruction
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Runtime.ScriptInstruction
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Runtime.ScriptInstruction
+  BuildAssemblerCore: Building topic Overload:Ubik.Runtime.ScriptInstruction.#ctor
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptInstruction.#ctor(Ubik.Runtime.Opcode)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptInstruction.#ctor(Ubik.Runtime.Opcode,Ubik.Runtime.Operand)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptInstruction.#ctor(Ubik.Runtime.Opcode,Ubik.Runtime.Operand,Ubik.Runtime.Operand)
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptInstruction.Address
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptInstruction.m_opcode
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptInstruction.m_operand0
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptInstruction.m_operand1
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.ScriptInstruction.m_uiAddress
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptInstruction.Opcode
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptInstruction.Operand0
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.ScriptInstruction.Operand1
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.ScriptInstruction.ToString
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.VariableDictionary
+  ShowMissingComponent: [M:Ubik.Runtime.VariableDictionary.#ctor] Auto-documenting constructor
+  BuildAssemblerCore: Building topic Methods.T:Ubik.Runtime.VariableDictionary
+  BuildAssemblerCore: Building topic Properties.T:Ubik.Runtime.VariableDictionary
+  BuildAssemblerCore: Building topic Fields.T:Ubik.Runtime.VariableDictionary
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.VariableDictionary.#ctor(Ubik.Runtime.VariableScope,Ubik.Runtime.VariableDictionary,Ubik.Runtime.VariableDictionary)
+  ShowMissingComponent: [M:Ubik.Runtime.VariableDictionary.#ctor(Ubik.Runtime.VariableScope,Ubik.Runtime.VariableDictionary,Ubik.Runtime.VariableDictionary)] Auto-documenting constructor
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.VariableDictionary.Clear
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.VariableDictionary.CreateGlobalDictionary
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.VariableDictionary.CreateLocalDictionary(Ubik.Runtime.VariableDictionary)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.VariableDictionary.CreateScriptDictionary(Ubik.Runtime.VariableDictionary)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.VariableDictionary.ExposeTemporaryVariables
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.VariableDictionary.GetScope(System.String)
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.VariableDictionary.HideTemporaryVariables
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.VariableDictionary.Identifiers
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.VariableDictionary.IsDeclared(System.String)
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.VariableDictionary.Item(System.String)
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.VariableDictionary.m_dictTemporaryVariables
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.VariableDictionary.m_dictVariables
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.VariableDictionary.m_variableDicitonaryGlobal
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.VariableDictionary.m_variableDicitonaryScript
+  BuildAssemblerCore: Building topic F:Ubik.Runtime.VariableDictionary.m_variableScope
+  BuildAssemblerCore: Building topic M:Ubik.Runtime.VariableDictionary.Remove(System.String)
+  BuildAssemblerCore: Building topic P:Ubik.Runtime.VariableDictionary.Scope
+  BuildAssemblerCore: Building topic T:Ubik.Runtime.VariableScope
+  BuildAssemblerCore: Building topic R:Project_Documentation
+  BuildAssemblerCore: Building topic G:Ubik
+  Processed 582 topic(s)
+  1 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 8 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+G‚n‚ration du projet &quot;C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\BuildTopics.proj&quot; termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+
+Temps ‚coul‚ 00:00:27.56
+    Last step completed in 00:00:27,7292
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2018.5.29.0
+Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website
+Processed 582 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\WebKI.xml
+Saving website table of contents to C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\WebTOC.xml
+    Last step completed in 00:00:00,4704
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\html\GeneralError.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\html\PageNotFound.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\lived\Desktop\Ubik Code\Ubik\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00,2040
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:00,6792
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 807 files for the website content
+    Last step completed in 00:00:00,9053
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,1890
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 20/01/2021 00:11:45.  Total time: 00:00:36,6341
+
+</buildStep>
+</shfbBuild>
